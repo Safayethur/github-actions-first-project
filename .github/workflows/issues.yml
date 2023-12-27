@@ -1,0 +1,11 @@
+name: First Workflow
+
+on: issues
+
+jobs:
+  lint-test-build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Issue Info
+        runs: echo '${{ github.event }}'
+
