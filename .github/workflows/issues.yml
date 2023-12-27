@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo Issue Info
-        run: echo '${{ github.event }}'
+        run: echo "${{ toJSON(github.event) }}""
 
