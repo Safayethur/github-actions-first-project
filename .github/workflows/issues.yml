@@ -1,4 +1,4 @@
-name: First Workflow
+name: Workflow on Issue Trigger
 
 on: issues
 
